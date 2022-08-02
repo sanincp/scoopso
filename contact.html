@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="img/page logo.png" type="image/gif">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="commen.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/e98a00bc7d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid nav-bar1 col">
+        <div class="logo d-flex justify-content-center float-start">
+          <a href="index.html"><img class="logo-img" src="img/scoopso logo.png" alt=""></a>
+        </div>
+        <div class="ul float-end">
+          <ul class="d-flex justify-content-evenly mt-3 fw-bold ul-xl">
+            <li class="li-xl"><a href="index.html"><i class="fa-solid fa-house-chimney"> </i></a></li>
+            <li class="li-xl"><a href="products.html"><i class="fa-solid fa-ice-cream"></i> Products</a></li>
+            <li class="li-xl"><a href="store.html"><i class="bi bi-shop"></i> Stores</a></li>
+            <li class="li-xl"><a href="contact.html"><i class="bi bi-envelope"></i> Contact</a></li>
+            <li class="li-xl"><a href="about.html"><i class="bi bi-chat"></i> About</a></li>
+          </ul>
+        </div>
+        <div class="nav-sm">
+          <div class="list-icon-div float-end">
+            <i class="fa-solid fa-bars list-icon fs-4 px-2 py-1 mt-3" onclick="navClick()"></i>
+          </div>
+        </div>
+      </div>
+      <div id="navMd" class="ul-md">
+        <ul class="d-flex justify-content-between fw-bold ul-md">
+          <li style="margin-left: -1rem;" class="li-md mt-3"><a href="index.html"><i class="fa-solid fa-house-chimney"> </i></a></li>
+          <li class="li-md mt-3"><a href="products.html"><i class="fa-solid fa-ice-cream"></i> Products</a></li>
+          <li class="li-md mt-3"><a href="store.css"><i class="bi bi-shop"></i> Stores</a></li>
+          <li class="li-md mt-3"><a href="contact.html"><i class="bi bi-envelope"></i> Contact</a></li>
+          <li class="li-md mt-3 me-3"><a href="about.html"><i class="bi bi-chat"></i> About</a></li>
+        </ul>
+      </div>
+      <div id="navSm" class="ul-sm">
+        <div class="row text-center text-uppercase smDiv1">
+          <div class="col smDiv2">
+            <a href="products.html">
+            <p class="sm-nav-text fw-bold">
+              <i class="fa-solid fa-ice-cream fs-1 mt-2 pb-1"></i><br>
+              Products
+            </p>
+          </a>
+          </div>
+          <div class="col">
+            <a href="store.html">
+            <p class="fw-bold sm-nav-text">
+              <i class="bi bi-shop fs-1"></i><br>
+              stores
+            </p>
+          </a>
+          </div>
+        </div>
+        <div class="row text-center text-uppercase smDiv1">
+          <div class="col smDiv2">
+            <a href="contact.html">
+            <p class="sm-nav-text fw-bold">
+              <i class="bi bi-envelope fs-1 mt-2 pb-1  "></i><br>
+              contact
+            </p>
+          </a>
+          </div>
+          <div class="col smDiv2">
+            <a href="about.html">
+            <p class="sm-nav-text fw-bold">
+              <i class="bi bi-chat fs-1 mt-2 pb-1  "></i><br>
+              about
+            </p>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="title-div text-center">
+        <h1 class="text-uppercase text-center mt-4 title-main animate fadeInDown two fw-bold">get  <span style="color: #f7aa10;">in</span> touch</h1>
+        <img class="img-fluid title-img-3" width="240px" style="margin-top: -2rem !important;" src="img/title-decor1.png" alt="">
+      </div>
+      <section id="contact" class="mt-5">
+        <div class="contact-box row">
+          <div class="contact-links col-lg-6 col-md-6 col-sm-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.76760787968803!2d76.17852302818837!3d11.017476534844093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ccfd88f86287%3A0xdd6fa0b5c8e47804!2sPT%20GROUP%20OF%20COMPANIES!5e0!3m2!1sen!2sin!4v1658023451955!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contact-form-wrapper col-lg-6 col-md-6 col-sm-12">
+            <form>
+              <div class="form-item mt-5">
+                <input type="text" name="sender" required>
+                <label>Name:</label>
+              </div>
+              <div class="form-item mt-5">
+                <input type="text" name="email" required>
+                <label>Email:</label>
+              </div>
+              <div class="form-item mt-5">
+                <textarea class="" name="message" required></textarea>
+                <label>Message:</label>
+              </div>
+              <button class="submit-btn mt-3 mb-3">Send</button>  
+            </form>
+          </div>
+        </div>
+        <div class="contact-info row animate fadeInDown two">
+          <div class="col-lg-3 text-center mt-5 col-md-6">
+            <h3 class="text-center"><i class="bi bi-geo-alt-fill info-icon"></i></h3>
+            <p class="info-text text-muted"><span class="text-dark fw-bold info-text-2">Address:</span> PT Tower, Valiyangadi Kovilakam Road, Angadipuram, Mankada, Kerala 679324</p>
+          </div>
+          <div class="col-lg-3 text-center mt-5 col-md-6">
+            <h3 class="text-center"><i class="bi bi-telephone-fill info-icon"></i></h3>
+            <p class="info-text text-muted"><span class="text-dark fw-bold info-text-2">Phone:</span> +91 9526369524</p>
+            <p class="info-text text-muted" style="margin-top: -10px;"><span class="text-dark fw-bold info-text-2">mobile:</span> +91 9846369524</p>
+          </div>
+          <div class="col-lg-3 text-center mt-5 col-md-6">
+            <h3 class="text-center"><i class="bi bi-envelope-fill info-icon"></i></h3>
+            <p class="info-text text-muted"><span class="text-dark fw-bold info-text-2">E-mail:</span> scoopsoicecreams@gmail.com</p>
+          </div>
+          <div class="col-lg-3 text-center mt-5 col-md-6">
+            <h3 class="text-center"><i class="bi bi-chat-square-heart-fill info-icon"></i></h3>
+            <p class="info-text text-muted"><span class="text-dark fw-bold info-text-2">Instagram:</span> <a href="#" class="text-decoration-none">Scoopso.ice</a></p>
+            <p class="info-text text-muted" style="margin-top: -10px;"><span class="text-dark fw-bold info-text-2">Facebook:</span> <a href="#" class="text-decoration-none">Scoopso ice</a></p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-distributed">
+
+        <div class="footer-right">
+    
+          <a href="https://www.facebook.com/Scoopso.in/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/scoopso_ice/?hl=en"><i class="fa fa-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=919526369524&app=facebook&entry_point=page_cta"><i class="fa bi-whatsapp"></i></a>
+          <a href="http://www.scoopso.com/"><i class="bi bi-globe"></i></a>
+    
+        </div>
+    
+        <div class="footer-left">
+    
+          <p class="footer-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="products.html">Poducts</a>
+    
+            <a href="store.html">Stores</a>
+    
+            <a href="about.css">About</a>
+    
+          </p>
+    
+          <p>2022 Scoopso All rights reserved. Powered by <a href="https://www.instagram.com/__sanin__12/" class="text-decoration-none">Sanin CP</a></p>
+        </div>
+    
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>

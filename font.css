@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Ultimate';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ultimate'), url('https://fonts.cdnfonts.com/s/84208/Ultimate-jEBqv.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bondrians';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bondrians'), url('https://fonts.cdnfonts.com/s/83934/Bondrians.woff') format('woff');
+}
+@font-face {
+    font-family: 'SCRIPT1 Rager Hevvy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SCRIPT1 Rager Hevvy'), url('https://fonts.cdnfonts.com/s/1856/SCR1rahv RAGER HEVVY.woff') format('woff');
+}

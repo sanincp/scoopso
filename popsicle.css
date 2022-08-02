@@ -1,0 +1,79 @@
+@import url('http://fonts.cdnfonts.com/css/ultimate');
+@import url('http://fonts.cdnfonts.com/css/bondrians');
+.item img{
+  height: 50vh !important;
+  width: 20vh !important;
+  margin-top: 3vh;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #f7aa10;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #f7aa10;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    transform: translateY(-50%);
+    color:#f7aa10 !important;
+}
+span {
+    font-size: 80px;    
+    position: relative;
+    top: -50px;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+.owl-nav button:focus {
+    outline: none;
+}
+.item h1{
+  font-family: 'Bondrians', sans-serif;                                                
+  font-weight: bold;
+  color: #330768;
+}
+.span-2{
+  top: 0 !important;
+  font-size: 45px;
+  font-family: 'Ultimate', sans-serif;
+}
+@media (max-width: 600px) {
+  .owl-dots button.owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+  }
+  .span-2{
+    font-size: 35px;
+  }
+}

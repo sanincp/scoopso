@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Holtwood+One+SC&family=Luckiest+Guy&family=Roboto+Condensed&family=Ultra&display=swap');
+body{
+    overflow-x: hidden;
+}
+.title-main{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.about-main{
+    width: 100%;
+    margin: 0 0;
+}
+.about-p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+}
+.about-card{
+    width: 90%;
+    background: #330768;
+    color: #fff;
+    border-radius: 10px !important;
+}
+@media (max-width: 767px) {
+    .logo-none{
+        display: block !important;
+    }
+    .logo-none-2{
+        display: none;
+    }
+}

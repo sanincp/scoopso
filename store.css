@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body{
+    overflow-x: hidden;
+}
+.card-btn{
+    border-radius: 5px;
+}
+.card-icon{
+    color: #f7aa10;
+}
+.card{
+    width: 85% !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px !important;
+}
+.hight-width img{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  height: 13rem !important;
+  width: 100% !important;
+}

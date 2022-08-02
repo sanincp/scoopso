@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franchise</title>
+    <link rel="icon" href="img/page logo.png" type="image/gif">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="store.css">
+    <link rel="stylesheet" href="commen.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/e98a00bc7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid nav-bar1 col">
+        <div class="logo d-flex justify-content-center float-start">
+          <a href="index.html"><img class="logo-img" src="img/scoopso logo.png" alt=""></a>
+        </div>
+        <div class="ul float-end">
+          <ul class="d-flex justify-content-evenly mt-3 fw-bold ul-xl">
+            <li class="li-xl">
+              <a href="index.html"><i class="fa-solid fa-house-chimney"> </i></a>
+            </li>
+            <li class="li-xl">
+              <a href="products.html"
+                ><i class="fa-solid fa-ice-cream"></i> Products</a
+              >
+            </li>
+            <li class="li-xl">
+              <a href="store.html"><i class="bi bi-shop"></i> Stores</a>
+            </li>
+            <li class="li-xl">
+              <a href="contact.html"><i class="bi bi-envelope"></i> Contact</a>
+            </li>
+            <li class="li-xl">
+              <a href="about.html"><i class="bi bi-chat"></i> About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-sm">
+          <div class="list-icon-div float-end">
+            <i
+              class="fa-solid fa-bars list-icon fs-4 px-2 py-1 mt-3"
+              onclick="navClick()"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div id="navMd" class="ul-md">
+        <ul class="d-flex justify-content-between fw-bold ul-md">
+          <li style="margin-left: -1rem" class="li-md mt-3">
+            <a href="index.html"><i class="fa-solid fa-house-chimney"> </i></a>
+          </li>
+          <li class="li-md mt-3">
+            <a href="products.html"
+              ><i class="fa-solid fa-ice-cream"></i> Products</a
+            >
+          </li>
+          <li class="li-md mt-3">
+            <a href="store.html"><i class="bi bi-shop"></i> Stores</a>
+          </li>
+          <li class="li-md mt-3">
+            <a href="contact.html"><i class="bi bi-envelope"></i> Contact</a>
+          </li>
+          <li class="li-md mt-3 me-3">
+            <a href="about.html"><i class="bi bi-chat"></i> About</a>
+          </li>
+        </ul>
+      </div>
+      <div id="navSm" class="ul-sm">
+        <div class="row text-center text-uppercase smDiv1">
+          <div class="col smDiv2">
+            <a href="products.html" class="text-decoration-none">
+            <p class="sm-nav-text fw-bold">
+              <i class="fa-solid fa-ice-cream fs-1 mt-2 pb-1"></i><br>
+              Products
+            </p>
+          </a>
+          </div>
+          <div class="col">
+            <a href="store.html" class="text-decoration-none">
+            <p class="fw-bold sm-nav-text">
+              <i class="bi bi-shop fs-1"></i><br>
+              stores
+            </p>
+          </a>
+          </div>
+        </div>
+        <div class="row text-center text-uppercase smDiv1">
+          <div class="col smDiv2">
+            <a href="contact.html" class="text-decoration-none">
+            <p class="sm-nav-text fw-bold">
+              <i class="bi bi-envelope fs-1 mt-2 pb-1  "></i><br>
+              contact
+            </p>
+          </a>
+          </div>
+          <div class="col">
+            <a href="about.html" class="text-decoration-none">
+              <p class="sm-nav-text fw-bold">
+                <i class="bi bi-chat fs-1 mt-2 pb-1  "></i><br>
+                About
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 18rem;">
+              <div id="carousel-13" class="carousel slide hight-width" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="outlet img/mankada 3.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/mankada 2.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/mankada 1.jpeg" alt="slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-13" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">prev</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-13" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">next</span>
+                </a>
+              </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Mankada</h5>
+                    <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-2"> PT Tower, Valiyangadi Koilakam road, Angadipuram</p>
+                    <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1">&nbsp; +91 9526369525</p>
+                    <p class="text-center"><a href="https://goo.gl/maps/S3H2wXKH33v4Y9B17" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                  </div>
+              </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+          <div class="card" style="width: 18rem;">
+            <div id="carousel-12" class="carousel slide hight-width" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block img-fluid" src="outlet img/mongam 1.jpeg" alt="slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="outlet img/mongam 2.jpeg" alt="slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="outlet img/mongam 3.jpeg" alt="slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-12" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">prev</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-12" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+              </a>
+            </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">Mongam</h5>
+                  <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1">Infornt of white hypermarket, Mongam </p>
+                  <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1">&nbsp; +91 9207265534</p>
+                  <p class="text-center"><a href="https://goo.gl/maps/e7AFAHkGX56kwqVx7" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                </div>
+            </div>
+          </div>  
+          
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 18rem;">
+              <div id="carousel-11" class="carousel slide hight-width" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="outlet img/thuvvur 3.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/thuvvur 2.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/thuvvur 3.jpeg" alt="slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-11" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">prev</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-11" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">next</span>
+                </a>
+              </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Thuvvur</h5>
+                    <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1">Near Al Salama Hospital, Tuvvur, Kamanam</p>
+                    <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1"> &nbsp; +91 8921731426</p>
+                    <p class="text-center"><a href="https://goo.gl/maps/e7AFAHkGX56kwqVx7" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+              <div class="card" style="width: 18rem;">
+                <div id="carousel-5" class="carousel slide hight-width" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <img class="d-block img-fluid" src="outlet img/Vettichira 2.jpeg" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block img-fluid" src="outlet img/Vettichira 1.jpeg" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block img-fluid" src="outlet img/Vettichira 3.jpeg" alt="slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-5" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">prev</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-5" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">next</span>
+                  </a>
+                </div>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-center">Vettichira</h5>
+                      <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1"> Near X5 car accessories, Vettichira, Chungam Road</p>
+                      <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1">&nbsp; +91 9961165016</p>
+                      <p class="text-center"><a href="https://goo.gl/maps/b3xF4RFhXKpeYynK8" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                    </div>
+                </div>
+              </div>  
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 18rem;">
+              <div id="carousel-10" class="carousel slide hight-width" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="outlet img/pandikkad 1.jfif" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/pandikkad 2.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/pandikkad 3.jpeg" alt="slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-10" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">prev</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-10" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">next</span>
+                </a>
+              </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Pandikkad</h5>
+                    <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1"> Opposite indian oil pumb, Manjeri road, Pandikkad</p>
+                    <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1">&nbsp; +91 8281494811</p>
+                    <p class="text-center"><a href="https://goo.gl/maps/3EPjotiZwccA6QcW8" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                  </div>
+              </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+          <div class="card" style="width: 18rem;">
+            <div id="carousel-9" class="carousel slide hight-width" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img class="d-block img-fluid" src="outlet img/Wandoor 1.jpeg" alt="slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="outlet img/Wandoor 2.jpeg" alt="slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="outlet img/Wandoor 3.jpeg" alt="slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-9" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">prev</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-9" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+              </a>
+            </div>
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-center">Wandoor</h5>
+                  <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1">Opp JMC Hospital, Kalikavu road, Wandoor </p>
+                  <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1">&nbsp; +91 8281494811</p>
+                  <p class="text-center"><a href="https://goo.gl/maps/4s3wGZcd8fiCByew7" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                </div>
+            </div>
+          </div>  
+          
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 18rem;">
+              <div id="carousel-8" class="carousel slide hight-width" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="outlet img/Pookkottumpadam 3.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/Pookkottumpadam 2.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/Pookkottumpadam 1.jpeg" alt="slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-8" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">prev</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-8" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">next</span>
+                </a>
+              </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Pookkottumpadam</h5>
+                    <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1">Opp. Laiba wedding center, (Near LUPO KIDS WEAR)</p>
+                    <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1"> &nbsp; +91 9961165016 , 7593009448</p>
+                    <p class="text-center"><a href="https://goo.gl/maps/MkC82fWZTBawDnq49" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+              <div class="card" style="width: 18rem;">
+                <div id="carousel-7" class="carousel slide hight-width" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <img class="d-block img-fluid" src="outlet img/manjeri 1.jpeg" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block img-fluid" src="outlet img/manjeri 2.jpeg" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block img-fluid" src="outlet img/manjeri 3.jpeg" alt="slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-7" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">prev</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-7" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">next</span>
+                  </a>
+                </div>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-center">Manjeri</h5>
+                      <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1">Near Rock Arena turf, Manjeri, Kacherippadi</p>
+                      <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1"> &nbsp; +91 89438 96967 , 98462 59015</p>
+                      <p class="text-center"><a href="https://goo.gl/maps/cy2FvMZ7Bt8YGgwP6" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                    </div>
+                </div>
+              </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 18rem;">
+              <div id="carousel-6" class="carousel slide hight-width" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="outlet img/ponnani 1.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/ponnani 2.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/ponnani 3.jpeg" alt="slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-6" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">prev</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-6" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">next</span>
+                </a>
+              </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Ponnani</h5>
+                    <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1"> Opposite MES College, Ponnani Rd, South-po, Ponnani,</p>
+                    <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1">&nbsp; +91 919961871821</p>
+                    <p class="text-center"><a href="https://goo.gl/maps/AiuSqkip4oKBjFsh8" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                  </div>
+              </div>
+        </div>
+
+        
+          
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+            <div class="card" style="width: 18rem;">
+              <div id="carousel-4" class="carousel slide hight-width" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="outlet img/Karuvarakundu 1.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/Karuvarakundu 3.jpeg" alt="slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid" src="outlet img/Karuvarakundu 2.jpeg" alt="slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-4" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">prev</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-4" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">next</span>
+                </a>
+              </div>
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold text-center">Karuvarakundu</h5>
+                    <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1"> Oppo. police station road , Chirakkal, Karuvarakundu</p>
+                    <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1"> &nbsp; +91 9605023567</p>
+                    <p class="text-center"><a href="" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-evenly mt-5">
+              <div class="card" style="width: 18rem;">
+                <div id="carousel-7" class="carousel slide hight-width" data-ride="carousel">
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <img class="d-block img-fluid" src="outlet img/manjeri 1.jpeg" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block img-fluid" src="outlet img/manjeri 2.jpeg" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block img-fluid" src="outlet img/manjeri 3.jpeg" alt="slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-7" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">prev</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-7" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">next</span>
+                  </a>
+                </div>
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold text-center">Manjeri</h5>
+                      <i class="bi bi-geo-alt fs-4 card-icon float-start"></i><p class="card-text text-center pt-1">Near Rock Arena turf, Manjeri, Kacherippadi</p>
+                      <i class="bi bi-telephone fs-4 card-icon float-start"></i><p class="card-text pt-1"> &nbsp; +91 89438 96967 , 98462 59015</p>
+                      <p class="text-center"><a href="https://goo.gl/maps/cy2FvMZ7Bt8YGgwP6" class="px-2 py-1 pb-2 fw-bold btn-primary text-decoration-none card-btn">View Map</a></p>
+                    </div>
+                </div>
+              </div>
+
+      </div>
+      <footer class="footer-distributed">
+        <div class="footer-right">
+          <a href="https://www.facebook.com/Scoopso.in/"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com/scoopso_ice/?hl=en"><i class="fa fa-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=919526369524&app=facebook&entry_point=page_cta"><i class="fa bi-whatsapp"></i></a>
+          <a href="http://www.scoopso.com/"><i class="bi bi-globe"></i></a>
+        </div>
+
+        <div class="footer-left">
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+
+            <a href="products.html">Products</a>
+
+            <a href="contact.html">Contact</a>
+
+            <a href="about.html">About</a>
+          </p>
+
+          <p>2022 Scoopso All rights reserved. Powered by <a href="https://www.instagram.com/__sanin__12/" class="text-decoration-none">Sanin CP</a></p>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
