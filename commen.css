@@ -12,6 +12,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
 .nav-bar1{
     z-index: 2 !important;
     height: 4rem;
